@@ -351,6 +351,12 @@ ul, ol {
   border-color: var(--color-muted);
 }
 
+.project-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .project-name {
   font-size: 0.95rem;
   font-weight: 600;
