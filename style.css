@@ -357,6 +357,29 @@ ul, ol {
   text-decoration: none;
 }
 
+.project-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.project-card-header .project-name {
+  margin-bottom: 0;
+}
+
+.project-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+.project-card:hover .project-icon {
+  opacity: 1;
+}
+
 .project-name {
   font-size: 0.95rem;
   font-weight: 600;
