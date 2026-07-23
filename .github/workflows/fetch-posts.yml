@@ -1,0 +1,30 @@
+name: Fetch Substack posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 6:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch feed
+        run: python3 scripts/fetch_posts.py
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- posts.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add posts.json
+            git commit -m "Update Substack posts"
+            git push
+          else
+            echo "No changes to posts.json"
+          fi

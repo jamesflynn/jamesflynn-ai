@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "title": "We Will Find PMF",
+      "description": "An example of AI-forward Product Leadership",
+      "link": "https://jamesflynn8.substack.com/p/we-will-find-pmf",
+      "date": "2026-07-16",
+      "image": "https://substackcdn.com/image/fetch/$s_!4r7g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd965bd1a-1fd9-486f-b136-f5c240c7482a_1091x488.jpeg"
+    },
+    {
+      "title": "A Plumber, Bad Bunny, and LeBron James Walk into a Bar...",
+      "description": "The Impact of AI on your Economic Power",
+      "link": "https://jamesflynn8.substack.com/p/a-plumber-bad-bunny-and-lebron-james",
+      "date": "2026-02-20",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/9c0453e8-212a-44a0-9d45-2d4fe6920ab7_497x404.jpeg"
+    },
+    {
+      "title": "The 1980s Called. They Want Their AI Back.",
+      "description": "How research into AI automation led me to a 40-year-old idea that might be exactly what we need",
+      "link": "https://jamesflynn8.substack.com/p/the-1980s-called-they-want-their",
+      "date": "2026-02-18",
+      "image": "https://substackcdn.com/image/fetch/$s_!4F0a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb414261f-ae7f-49a0-bc6d-4617d38c0c0c_692x432.png"
+    },
+    {
+      "title": "A Mental Model of a Model",
+      "description": "How to think about how to structure and assign tasks to an AI",
+      "link": "https://jamesflynn8.substack.com/p/a-mental-model-of-a-model",
+      "date": "2026-02-05",
+      "image": null
+    },
+    {
+      "title": "Implementing GenAI in Workflows",
+      "description": "Managing Brilliance and Unreliability",
+      "link": "https://jamesflynn8.substack.com/p/implementing-genai-in-workflows",
+      "date": "2026-01-19",
+      "image": "https://substackcdn.com/image/fetch/$s_!HLaa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ac601ab-fe4f-496a-a482-078b8aeb4d9c_779x527.png"
+    }
+  ]
+}
