@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+
+# Python (scripts/fetch_posts.py)
+__pycache__/
+*.pyc
