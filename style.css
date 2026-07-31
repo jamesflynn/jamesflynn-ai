@@ -420,6 +420,21 @@ ul, ol {
   text-underline-offset: 2px;
 }
 
+/* Shown in place of the cards when posts.json can't be loaded, so the
+   section degrades to a Substack link instead of disappearing. */
+.writing-fallback {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.writing-fallback a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .writing-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
