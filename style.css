@@ -620,3 +620,35 @@ ul, ol {
   display: block;
   margin-top: var(--space-md);
 }
+
+.equation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  max-width: 640px;
+}
+
+.equation-part {
+  flex: 1 1 140px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.equation-part svg {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.equation-part figcaption {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.equation-op {
+  font-size: 1.5rem;
+  color: var(--color-muted);
+}
