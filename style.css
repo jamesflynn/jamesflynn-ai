@@ -612,3 +612,11 @@ ul, ol {
     padding-block: var(--space-lg);
   }
 }
+
+.project-photo {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 8px;
+  display: block;
+  margin-top: var(--space-md);
+}
