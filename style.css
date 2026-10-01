@@ -621,6 +621,12 @@ ul, ol {
   margin-top: var(--space-md);
 }
 
+.project-video {
+  aspect-ratio: 4 / 3;
+  border: 0;
+  margin-top: 0;
+}
+
 .equation {
   display: flex;
   align-items: center;
